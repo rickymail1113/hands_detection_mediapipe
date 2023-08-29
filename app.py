@@ -3,7 +3,6 @@ import mediapipe as mp
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_style = mp.solutions.drawing_styles
-drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
 mp_hands = mp.solutions.hands
 
 cap = cv2.VideoCapture(0)
